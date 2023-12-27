@@ -1,0 +1,220 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+  }
+  
+  .main-content {
+    max-width: 800px;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .image-with-text {
+    display: flex;
+    align-items: center;
+  }
+
+ .text-container {
+   flex-grow: 1;
+  }
+
+  .text-container p {
+    text-align: left;
+   }
+  
+  .text-container-Achievements {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .Sub-text-container-1{
+    width: 400px; /* ปรับความกว้างตามต้องการ */
+    height: 100px; /* ปรับความสูงตามต้องการ */
+    background-color: #3d3a3a;
+    border: 1px solid #948d8d;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  .Sub-text-container-2{
+    width: 400px; /* ปรับความกว้างตามต้องการ */
+    height: 250px; /* ปรับความสูงตามต้องการ */
+    background-color: #3d3a3a;
+    border: 1px solid #948d8d;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  .Sub-text-container-3{
+    width: 400px; /* ปรับความกว้างตามต้องการ */
+    height: 300px; /* ปรับความสูงตามต้องการ */
+    background-color: #3d3a3a;
+    border: 1px solid #948d8d;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  .Sub-text-container-4{
+    width: 400px; /* ปรับความกว้างตามต้องการ */
+    height: 370px; /* ปรับความสูงตามต้องการ */
+    background-color: #3d3a3a;
+    border: 1px solid #948d8d;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  .Sub-text-container-5{
+    width: 400px; /* ปรับความกว้างตามต้องการ */
+    height: 100px; /* ปรับความสูงตามต้องการ */
+    background-color: #3d3a3a;
+    border: 1px solid #948d8d;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  .Sub-text-container-6{
+    width: 400px; /* ปรับความกว้างตามต้องการ */
+    height: 120px; /* ปรับความสูงตามต้องการ */
+    background-color: #3d3a3a;
+    border: 1px solid #948d8d;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  .Sub-text-container-7{
+    margin-top: 7rem;
+    width: 800px; /* ปรับความกว้างตามต้องการ */
+    height: 290px; /* ปรับความสูงตามต้องการ */
+    background-color: #3d3a3a;
+    border: 1px solid #948d8d;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+
+  .portfolio-button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .portfolio-section {
+    display: none;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  #profile-image-container {
+    margin-right: 20px; /* ปรับขนาดตามความต้องการ */
+  }
+  
+  #profile-image {
+    width: 100px; /* ปรับขนาดตามความต้องการ */
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  figure {
+    position: relative;
+  }
+
+  figure h1{
+    text-align: center;
+    width: 400px; /* ปรับความกว้างตามต้องการ */
+    height: px; /* ปรับความสูงตามต้องการ */
+    background-color: #3d3a3a;
+    border: 1px solid #948d8d;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    position: relative;
+  }
+  
+  figcaption h2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* ปรับสีพื้นหลังตามต้องการ */
+    color: #fff; /* ปรับสีข้อความตามต้องการ */
+    padding: 10px;
+    text-align: center;
+  }
+
+  figcaption h3{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.7); /* ปรับสีพื้นหลังตามต้องการ */
+    color: #fff; /* ปรับสีข้อความตามต้องการ */
+    padding: 0%;
+    text-align: center;
+  }
+  
+  .slide-right {
+    animation: 2s slide-right;
+    animation-delay: 2s;
+ }
+ 
+ @keyframes slide-right {
+     from {
+        margin-left: -100px;
+     }
+ 
+     to {
+        margin-left: 0%;
+     }
+  }
+  
+  
